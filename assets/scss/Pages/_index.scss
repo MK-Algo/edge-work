@@ -183,7 +183,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 6rem 0 8rem;
+	padding: 4rem 0 8rem;
 	&__wrapper {
 		display: flex;
 		justify-content: space-between;
@@ -193,10 +193,6 @@ body {
 			flex-direction: column;
 			gap: 8rem;
 		}	
-	}
-
-	h2 {
-		margin-top: 10rem;
 	}
 }
 

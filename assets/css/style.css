@@ -3125,6 +3125,25 @@ figure img,
 .header {
   width: 100%;
   background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 12rem;
+}
+@media only screen and (max-width: 640px) {
+  .header {
+    padding: 2rem 5rem;
+  }
+}
+.header_logo {
+  width: 20rem;
+  height: 4.5rem;
+}
+@media only screen and (max-width: 640px) {
+  .header_logo {
+    width: 16rem;
+    height: 3.6rem;
+  }
 }
 
 .mobile-nav-toggle {
@@ -3462,7 +3481,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6rem 0 8rem;
+  padding: 4rem 0 8rem;
 }
 .case-sec__wrapper {
   display: flex;
@@ -3474,9 +3493,6 @@ body {
     flex-direction: column;
     gap: 8rem;
   }
-}
-.case-sec h2 {
-  margin-top: 10rem;
 }
 
 .example-sec {
@@ -3550,6 +3566,22 @@ body {
 
 .footer {
   width: 100%;
+  background-color: #34B3A9;
+  color: white;
+  padding: 5rem;
+}
+.footer-links {
+  display: flex;
+  row-gap: 2rem;
+  column-gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+.footer .copyright {
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
